@@ -1,1 +1,1 @@
-# TAI_LAB1
+# Technologie aplikacji internetowych - lab1
