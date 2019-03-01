@@ -2,18 +2,49 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-	 <link rel="stylesheet" href="style.css" >
-	 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+          integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+
     <title>Strona Krzysztofa Wowczuk</title>
 
 </head>
 <body>
+
 <ul>
-	<li><a href="html/home.html">Home</a></li>
-	<li><a href="html/blog.html">Blog</a></li>
-	<li><a href="html/quiz.html">Quiz</a></li>
-	<li><a href="html/contact.html">Kontakt</a></li>
-  </ul>
+    <li class="menu"><a href="html/home.html">Home</a></li>
+    <li class="menu"><a href="html/blog.html">Blog</a></li>
+    <li class="menu"><a href="html/quiz.html">Quiz</a></li>
+    <li class="menu"><a href="html/contact.html">Kontakt</a></li>
+</ul>
+
+
+<div class="container">
+
+    <div class="row">
+        <div class="col-md-9">
+            <p>Formularz z opisami obok pól
+                Aby opisy pól znajdowały się obok pól a nie nad nimi należy wykonać kilka czynności:
+                Znacznikowi nadajemy klasę .form-horizontal
+                Pole formularza i jego opis otaczamy divem z klasą .form-group
+                Znacznikowi < nadajemy klasę .control-label oraz nadajemy mu wybraną szerokość np .col-md-2
+                Kod pola formularza (input) otaczamy divem z szerokością (etykiecie nadaliśmy szerokość 2 kolumn więc
+                pozostało
+                nam 10) czyli klasą .col-md-10</p>
+        </div>
+        <div class="col-sm-3">
+            <h3>Szybki kontakt</h3>
+
+            <ul>
+                <li class="icon"><i class="fa fa-facebook-official" aria-hidden="true"></i></li>
+                <li class="icon"><i class="fa fa-instagram" aria-hidden="true"></i></li>
+                <li class="icon"><i class="fa fa-envelope" aria-hidden="true"></i></li>
+            </ul>
+
+        </div>
+    </div>
+</div>
 
 </body>
 </html>
