@@ -1,0 +1,21 @@
+.menu{
+	display:inline;
+	margin-left:20px;
+}
+.icon{
+	display: block;
+
+}
+.center {
+	text-align: center;
+}
+.navbar{
+	font-size: 20px;
+}
+a{
+	padding-left: 10px;
+}
+footer{
+
+}
+
