@@ -1,3 +1,6 @@
+html {
+	scroll-behavior: smooth;
+}
 .menu{
 	display:inline;
 	margin-left:20px;
@@ -15,7 +18,11 @@
 a{
 	padding-left: 10px;
 }
-footer{
-
+.scroll {
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+	display: none;
 }
+
 
