@@ -13,7 +13,9 @@ function showTopButton() {
         document.querySelector(".scroll").style.display = "none";
     }
 
+
 }
+window.onscroll = function() {showTopButton()};
 
 
 
