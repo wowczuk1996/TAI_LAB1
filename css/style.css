@@ -24,5 +24,12 @@ a{
 	right: 30px;
 	display: none;
 }
+.correct{
+	background-color: green;
+}
+.incorrect{
+	background-color: red;
+}
+
 
 
